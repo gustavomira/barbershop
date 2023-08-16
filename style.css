@@ -1,0 +1,166 @@
+@import url(colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+
+}
+body{
+    width: 100%;
+    background-image: url(images/imagebarber.jpg);   
+}
+body img{ 
+    width: 100%;
+}
+
+/*Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px ;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.726) ;
+    
+
+}
+.logo img{
+    height: 90px;
+}
+
+nav{
+    font-size: 20px;
+}
+
+ul{
+    
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+a{
+    margin-right: 60px;
+    text-decoration:none ;
+}
+
+li:hover{
+    color: #DDC462;
+    transition: 0.3s;
+}
+
+input{
+    background: none;
+    border: 3px solid white;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px ;
+    font-size: 19px;
+}
+
+#btn-header:hover{
+    transition: 0.3s;
+    background-color: #DDC462;
+    border: solid #DDC462;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Main*/
+aside h1{
+    font-size: 55px;
+}
+aside{
+    padding:20px ;
+}
+#barber{
+    font-size: 70px;
+    color: #DDC462;
+    line-height:5px;
+}
+
+p{
+    font-size: 20px;
+    width: 600px;
+    font-weight: 550;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+#article{
+    display: inline-flex;
+}
+.side1 p
+{
+    background-color: rgba(209, 209, 209, 0.373);
+    height: 250px;
+    width:250px ;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+.side2 p
+{
+    background-color: rgba(209, 209, 209, 0.373);
+    height: 250px;
+    width:250px ;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    display: flex;
+}
+#btn{
+    display: flex;
+    margin-top: 430px;
+    margin-left: 300px;
+    
+    width: 370px;
+    height: 80px;
+    font-size: 32px;
+    border-radius: 30px;
+}
+    
+
+#btn:hover{
+    transition: 0.3s;
+    background-color: #DDC462;
+    border: solid #DDC462;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom:30px ;
+}
+
+
+footer{
+    background-color: black;
+    color: #DDC462;
+}
+
+address{
+    color: #DDC462;
+    text-align: center;
+}
+
+
+
+
+
+
